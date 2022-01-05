@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="busalumnos">Escribe el nombre u apellido</string>
+    <string name="seleccciongrupo">Selecciona un grupo: </string>
+    <string name="selecsintoma">Sintomas</string>
+    <string name="seleccontacto">Contacto</string>
+    <string name="selecespecialidad">Especialidad </string>
+    <string name="dpor">Desarrollado por</string>
+    <string name="desarrolladop">E.I.S.C. Melina Cruz Filomeno</string>
+    <string name="tproyecto">Proyecto</string>
+    <string name="titulop">Aplicación móvil para el control de asistencia de alumnos del CECyTEM plantel Aculco</string>
+    <string name="obgeneral">Objetivo general</string>
+    <string name="objetivogral">Diseñar e implementar una aplicación móvil para el registro diario
+        de asistencia de alumnos y administrar la información respecto al filtro sanitario en el
+        CECyTEM plantel Aculco.</string>
+    <string name="obespecificos">Objetivos específicos</string>
+    <string name="obespf1">- Diseñar los modelos entidad–relación de la base de datos </string>
+    <string name="obespf2">- Diseñar las diferentes UI </string>
+    <string name="obespf4">- Diseñar diagramas de Caso de Uso (general)</string>
+    <string name="obespf5">- Analizar las diferentes plataformas para alojar una BD </string>
+    <string name="obespf6">- Analizar las diferentes plataformas para aplicaciones móviles  </string>
+    <string name="obespf7">- Analizar los requerimientos mínimos para la instalación del software </string>
+    <string name="obespf8">- Crear una base de datos en línea </string>
+    <string name="obespf9">- Instalar y configurar el registro y acceso de usuarios</string>
+    <string name="obespf10">- Desarrollar una aplicación móvil para sistema operativo Android</string>
+    <string name="obespf11">- Enlazar la aplicación móvil con la base de datos </string>
+    <string name="obespf12">- Realizar pruebas de la aplicación </string>
+</resources>

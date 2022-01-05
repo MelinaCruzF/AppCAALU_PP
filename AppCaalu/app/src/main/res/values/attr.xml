@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="tema_claro">
+        <attr name="color_fondo" format="color"/>
+        <attr name="color_texto" format="color"/>
+    </declare-styleable>
+</resources>

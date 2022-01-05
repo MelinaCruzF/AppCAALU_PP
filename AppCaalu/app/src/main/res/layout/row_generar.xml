@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="1dp"
+    android:gravity="center_vertical">
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="#7da453"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="105dp"
+                android:layout_height="74dp"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fechag"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:hint="Fecha"
+                android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/ncontrolg"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Nocontrol"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/sintomg"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Sintomas"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/observacg"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Observacion"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="95dp"
+                android:layout_height="55dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/grupog"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Grupo"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/nombresg"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Nombres"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/contactog"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Contacto"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="95dp"
+                android:layout_height="55dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/entradag"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Hrent"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/paternog"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Paterno"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/salidag"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Hrsal"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="95dp"
+                android:layout_height="55dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tentrg"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="TEntrada"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/maternog"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="Materno"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/tsalig"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:hint="TSalida"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
